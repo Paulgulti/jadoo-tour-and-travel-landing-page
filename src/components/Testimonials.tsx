@@ -10,23 +10,23 @@ const Testimonials = () => {
     ];
 
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2  w-[1114px] mx-auto'>
+        <div className='grid grid-cols-1 md:grid-cols-2 border border-red-500 container mx-auto px-4 mt-5'>
             <div>
-                <h3 className='text-[18px] font-poppins font-semibold text-[#5E6282]'>TESTIMONIALS</h3>
-                <h2 className='text-[50px] w-[500px] font-volkhov font-bold text-[#14183E] mt-[8px] mb-[60px] leading-[60px]'>What People Say About Us.</h2>
+                <h2 className='text-xl md:text-2xl w-[500px] font-volkhov font-bold text-[#14183E] mt-2 mb-2 md:mb-5  '>What People Say About Us.</h2>
+                <h3 className='text-md md:text-lg font-poppins font-semibold text-[#5E6282] md:mt-[8px] mb-8 md:mb-[60px] '>TESTIMONIALS</h3>
             </div>
-            <div className='relative  w-[400px] '>
-                <Carousel>
+            <div className='w-[80%] mx-auto md:mt-6  px-2'>
+                <Carousel className=''>
                     <CarouselContent className='p-6'>
                         {testimonials.map(testimonial =>
-                            <CarouselItem key={testimonial.id}>
+                            <CarouselItem className='' key={testimonial.id}>
                                 <div className='relative px-2 pt-6.5 pb-4 bg-white rounded-xl'>
                                     <div className='absolute top-[-22px] left-[-10px] w-12 h-12'>
                                         <img className='rounded-full' src={testimonial.url} alt="" />
                                     </div>
                                     <div className='font-poppins text-[#5E6282]'>
-                                        <p className='text-[16px] '>&quot;{testimonial.testimonial}&quot;</p>
-                                        <p className='font-semibold text-[18px] mt-2'>{testimonial.name}</p>
+                                        <p className='text-[14px] md:text-[16px] '>&quot;{testimonial.testimonial}&quot;</p>
+                                        <p className='font-semibold text-[16px] md:text-[18px] mt-2'>{testimonial.name}</p>
                                         <p className='text-[14px] '>{testimonial.job}</p>
                                     </div>
                                 </div>

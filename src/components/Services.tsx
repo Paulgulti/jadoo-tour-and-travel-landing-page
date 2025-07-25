@@ -8,10 +8,10 @@ const Services = () => {
         {id: crypto.randomUUID(), imageSrc: "/Customization.svg", title: "Customization", desc: "We deliver outsourced aviation services for military customers" }
     ]
     return (
-        <div id="services" className='w-[1228px]  mx-auto mt-[97px] mb-[123px]'>
-            <h3 className='text-[18px] font-poppins font-semibold text-[#5E6282] text-center'>CATEGORY</h3>
-            <h2 className='text-[50px] font-volkhov font-bold text-[#14183E] mt-[10px] mb-[108px] text-center'>We Offer Best Services</h2>
-            <div className=' flex gap-[118px]'>
+        <div id="services" className='border border-red-500 container  mx-auto mt-8 '>
+            <h2 className='text-xl md:text-2xl font-volkhov font-bold text-[#14183E] text-center'>We Offer Best Services</h2>
+            <h3 className='text-md md:text-lg font-poppins font-semibold text-[#5E6282] text-center  mt-2 mb-5 md:mb-5'>CATEGORY</h3>
+            <div className=' flex gap-4 md:gap-8 items-center flex-col md:flex-row md:justify-between'>
                 {services.map(service => 
                     <div key={service.id} className='w-[200px] flex flex-col items-center hover:bg-white  hover:cursor-pointer rounded-3xl hover:shadow-lg px-2 pb-3'>
                         <img
