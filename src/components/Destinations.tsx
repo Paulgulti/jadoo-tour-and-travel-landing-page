@@ -7,7 +7,7 @@ const Destinations = () => {
   ];
   
   return (
-    <div id="destinations" className='border mt-8 border-red-500 container mx-auto px-4'>
+    <div id="destinations" className=' mt-8  container mx-auto px-4'>
       <h2 className='text-xl md:text-2xl font-volkhov font-bold text-[#14183E]  text-center'>Top Destinations</h2>
       <h3 className='text-md md:text-lg font-poppins font-semibold text-[#5E6282] text-center mt-2 mb-5 md:mb-5'>Top Selling</h3>
       <div className='flex flex-col md:flex-row md:justify-between items-center gap-4 md:gap-8 '>

@@ -1,7 +1,7 @@
 
 const Footer = () => {
     return (
-        <div className='mb-5 mx-auto font-poppins border border-red-500 container px-4 mt-5'>
+        <div className='mb-5 mx-auto font-poppins  container px-4 mt-5'>
             <div className=' flex gap-4 md:gap-10 flex-col md:flex-row'>
                 <div className='w-[200px]'>
                     <h4 className='text-[#181E4B] font-medium text-[44px]'>Jadoo</h4>

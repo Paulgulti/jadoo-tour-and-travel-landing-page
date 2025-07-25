@@ -8,7 +8,7 @@ const PartnersAndSubscription = () => {
         { id: crypto.randomUUID(), url: '/singapore-airlines.svg' },
     ]
     return (
-        <div id="partners" className='px-4 border border-red-500 container mx-auto'>
+        <div id="partners" className='px-4 container mx-auto'>
             <h2 className='text-xl md:text-2xl font-volkhov font-bold text-[#14183E] mt-2 md:mb-10 '>Our Partners</h2>
             <div className='flex items-center h-[50px]  gap-8 '>
                 {partners.map(partner =>
@@ -17,7 +17,7 @@ const PartnersAndSubscription = () => {
                     </div>
                 )}
             </div>
-            <div className='bg-[#DFD7F9] w-[100%] md:mt-10 py-5 rounded-b-xl  md:rounded-b-3xl rounded-tr-xl md:rounded-tr-3xl rounded-tl-[100px]'>
+            <div className='bg-[#DFD7F9] w-[100%] md:mt-10 py-5 rounded-b-xl  md:rounded-b-3xl rounded-tr-xl md:rounded-tr-3xl rounded-tl-[100px] mt-8'>
                 <h2 className='lg:w-[800px] w-[70%] mx-auto text-center font-poppins font-semibold text-[12px] md:text-[20px] lg:text-[33px] text-[#5E6282] mb-4'>Subscribe to get information, latest news and other
                     interesting offers about Jadoo</h2>
                 <form action="" className='text-center '>
