@@ -10,7 +10,7 @@ const Header = () => {
         <nav className='container h-[40px] mt-[37px] mx-auto flex items-center justify-between px-4'>
             <h1 className='text-[#181E4B] font-medium text-[44px]'>Jadoo</h1>
             <div className={clsx(
-                'absolute md:static md:min-h-fit md:w-auto  flex-col md:items-center md:flex-row min-h-[60vh] w-full  left-0 top-0 px-3 bg-orange-300 flex gap-5 md:gap-10 lg:gap-30',
+                'absolute md:static md:min-h-fit md:w-auto  flex-col md:items-center md:flex-row min-h-[60vh] w-full  left-0 top-0 px-3 bg-[#181E4B] md:bg-transparent text-white md:text-inherit flex gap-5 md:gap-10 lg:gap-30',
                 {
                     'top-[-100%] ': menuStatus === false,
                     'top-[77px]': menuStatus === true,
@@ -23,7 +23,7 @@ const Header = () => {
                     <li className='hover:text-[#5E6282]'><a href='#book'>Book</a></li>
                 </ul>
                 <div className=' flex flex-col items-start md:flex-row lg:gap-5 gap-5'>
-                    <Button className='hover:cursor-pointer' variant={'outline'}>Login</Button>
+                    <Button className='hover:cursor-pointer text-black' variant={'outline'}>Login</Button>
                     <Button className='hover:cursor-pointer'>Sign up</Button>
                     <DropdownMenu>
                         <DropdownMenuTrigger>EN
