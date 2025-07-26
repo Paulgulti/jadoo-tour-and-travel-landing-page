@@ -2,9 +2,9 @@ import Header from './Header'
 
 const HeroContent = () => {
     return (
-        <div className='h-[100vh]'>
+        <div className=''>
             <Header />
-            <div className=' h-screen container flex items-center mx-auto pt-5 md:mt-20 pl-2'>
+            <div className='h-screen container flex items-center mx-auto pt-5 md:mt-20 pl-2'>
                 <div className=' w-full  md:w-[45%] h-full bg-[url(/traveller-mobile.png)] bg-cover bg-no-repeat md:bg-none flex flex-col'>
                     <p className='text-[10px] md:text-[20px] font-semibold text-[#DF6951] font-poppins'>BEST DESTINATIONS AROUND THE WORLD</p>
                     <h2 className='text-3xl md:text-4xl lg:text-6xl font-volkhov font-bold text-[#181E4B] lg:leading-15 mt-[24px] mb-[30px] w-[200px] md:w-[90%] lg:w-[470px]'>Travel, enjoy and live a new and full life</h2>

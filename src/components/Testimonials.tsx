@@ -12,8 +12,9 @@ const Testimonials = () => {
     return (
         <div className='grid grid-cols-1 md:grid-cols-2  container mx-auto px-4 mt-5'>
             <div>
-                <h2 className='text-xl md:text-2xl w-[500px] font-volkhov font-bold text-[#14183E] mt-2 mb-2 md:mb-5  '>What People Say About Us.</h2>
+                <h2 className='text-xl md:text-2xl font-volkhov font-bold text-[#14183E] mt-2 mb-2 md:mb-5  '>What People Say About Us.</h2>
                 <h3 className='text-md md:text-lg font-poppins font-semibold text-[#5E6282] md:mt-[8px] mb-8 md:mb-[60px] '>TESTIMONIALS</h3>
+                
             </div>
             <div className='w-[80%] mx-auto md:mt-6  px-2'>
                 <Carousel className=''>

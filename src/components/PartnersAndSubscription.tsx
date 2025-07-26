@@ -17,7 +17,7 @@ const PartnersAndSubscription = () => {
                     </div>
                 )}
             </div>
-            <div className='bg-[#DFD7F9] w-[100%] md:mt-10 py-5 rounded-b-xl  md:rounded-b-3xl rounded-tr-xl md:rounded-tr-3xl rounded-tl-[100px] mt-8'>
+            <div className='bg-[#dfd7f9c8] w-[100%] md:mt-10 py-5 rounded-b-xl  md:rounded-b-3xl rounded-tr-xl md:rounded-tr-3xl rounded-tl-[100px] mt-8'>
                 <h2 className='lg:w-[800px] w-[70%] mx-auto text-center font-poppins font-semibold text-[12px] md:text-[20px] lg:text-[33px] text-[#5E6282] mb-4'>Subscribe to get information, latest news and other
                     interesting offers about Jadoo</h2>
                 <form action="" className='text-center '>

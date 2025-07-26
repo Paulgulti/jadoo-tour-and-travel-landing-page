@@ -1,7 +1,7 @@
 
 const BookTrip = () => {
     return (
-        <div id="book" className='mt-8   container mx-auto flex flex-col md:flex-row md:items-center px-2'>
+        <div id="book" className='mt-8 container mx-auto flex flex-col md:flex-row md:items-center px-2'>
             <div>
                 <h2 className='text-xl md:text-2xl  font-volkhov font-bold text-[#14183E] mt-2 mb-2  '>Book Your Next Trip In 3 Easy Steps</h2>
                 <h3 className='text-md md:text-lg font-poppins font-semibold text-[#5E6282] mb-2'>Easy and Fast</h3>
@@ -43,7 +43,7 @@ const BookTrip = () => {
                     </div>
                 </div>
                 <div className="mt-5">
-                    <div className='w-[395px] flex flex-col gap-[48px] font-poppins text-[16px] text-[#5E6282]'>
+                    <div className='md:w-[395px] flex flex-col gap-[48px] font-poppins text-[16px] text-[#5E6282]'>
                         <div className='flex gap-3 items-center '>
                             <div className='bg-[#F0BB1F] w-[48px] h-[40px] rounded-md flex items-center justify-center'>
                                 <img className='w-[25px] h-[25px]' src="/destination.svg" alt="" />
